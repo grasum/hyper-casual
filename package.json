@@ -1,23 +1,22 @@
 {
-    "name": "hyper-casual",
-    "version": "0.0.1",
-    "description": "Casual Theme for Hyper",
-    "main": "index.js",
-    "license": "MIT",
-    "repository": "grasum/hyper-casual",
-    "author": {
-      "name": "Alex Ruja"
-    },
-    "files": [
-      "index.js"
-    ],
-    "keywords": [
-      "hyper",
-      "hyper-theme",
-      "hyperterm",
-      "hyperterm-theme",
-      "casual",
-      "hyper-casual"
-    ]
-  }
-  
+  "name": "hyper-casual",
+  "version": "0.1.0",
+  "description": "Casual Theme for Hyper",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "grasum/hyper-casual",
+  "author": {
+    "name": "Alex Ruja"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "hyperterm",
+    "hyperterm-theme",
+    "casual",
+    "hyper-casual"
+  ]
+}
