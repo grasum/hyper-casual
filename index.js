@@ -21,6 +21,12 @@ const colors            = {
       lightCyan         : '#2DCED0',
       lightWhite        : foregroundColor
 };
+const {remote} = require('electron');
+const isElevated = require('is-elevated');
+const {createAnimator} = require('./lib/animator');
+const {getBorderColors} = require('./lib/colorhelpers');
+
+let unloadAnimator = null;
 
 // Config
 exports.decorateConfig = config => {
@@ -54,13 +60,6 @@ exports.decorateConfig = config => {
     });
 };
 
-
-const {remote} = require('electron');
-const isElevated = require('is-elevated');
-const {createAnimator} = require('./lib/animator');
-const {getBorderColors} = require('./lib/colorhelpers');
-
-let unloadAnimator = null;
 
 module.exports.onRendererWindow = async window => {
   const browserWindow = remote.getCurrentWindow();
