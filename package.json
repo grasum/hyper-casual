@@ -8,6 +8,13 @@
   "author": {
     "name": "Alex Ruja"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grasum/hyper-casual.git"
+  },
+  "dependencies": {
+    "is-elevated": "^2.0.1"
+  },
   "files": [
     "index.js"
   ],
