@@ -1,16 +1,15 @@
 {
   "name": "hyper-casual",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Casual Theme for Hyper",
   "main": "index.js",
   "license": "MIT",
-  "repository": "grasum/hyper-casual",
-  "author": {
-    "name": "Alex Ruja"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grasum/hyper-casual.git"
+  },
+  "author": {
+    "name": "Alex Ruja"
   },
   "dependencies": {
     "is-elevated": "^2.0.1"
