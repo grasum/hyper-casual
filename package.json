@@ -1,6 +1,6 @@
 {
   "name": "hyper-casual",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Casual Theme for Hyper",
   "main": "index.js",
   "license": "MIT",
@@ -10,9 +10,6 @@
   },
   "author": {
     "name": "Alex Ruja"
-  },
-  "dependencies": {
-    "is-elevated": "^2.0.1"
   },
   "files": [
     "index.js"
